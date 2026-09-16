@@ -1,0 +1,18 @@
+# Sistema de Fila de Restaurante
+
+Projeto desenvolvido em Java para praticar POO,
+coleções e modelagem de regras de negócio.
+
+## Funcionalidades
+
+- Cadastro de grupos
+- Fila de espera
+- Cadastro de mesas
+- Alocação automática
+- Histórico de atendimentos
+- Interface via console
+
+## Tecnologias
+
+- Java
+- IntelliJ IDEA
