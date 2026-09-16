@@ -7,10 +7,15 @@ public class Mesa {
     private final int capacidade;
     private StatusMesa status;
 
-    //Construtor
+    //Construtores
     public Mesa(int id, int capacidade) {
+        this(id, capacidade, StatusMesa.LIVRE);
+    }
+    
+    public Mesa(int id, int capacidade, StatusMesa status) {
         this.id = id;
         this.capacidade = capacidade;
+        this.status = status;
     }
 
     //Getters
